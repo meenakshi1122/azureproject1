@@ -315,12 +315,6 @@
 									}
 								]
 							}
-						},
-						{
-							"name": "ForEach1_copy1",
-							"type": "ForEach",
-							"dependsOn": [],
-							"userProperties": []
 						}
 					]
 				}
@@ -329,7 +323,7 @@
 		"parameters": {
 			"loop_Incremental": {
 				"type": "array",
-				"defaultValue": "[   {     \"schema\" : :dbp\",     \"table\" : \"DimUser\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   },   {     \"schema\" : :dbp\",     \"table\" : \"DimTrack\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   },   {     \"schema\" : :dbp\",     \"table\" : \"DimDate\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   },   {     \"schema\" : :dbp\",     \"table\" : \"DimArtist\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   },   {     \"schema\" : :dbp\",     \"table\" : \"FactStream\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   } ]"
+				"defaultValue": "[   {     \"schema\" : :\"dbo\",     \"table\" : \"DimUser\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   },   {     \"schema\" : :\"dbo\",     \"table\" : \"DimTrack\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   },   {     \"schema\" : :\"dbo\",     \"table\" : \"DimDate\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   },   {     \"schema\" : :\"dbo\",     \"table\" : \"DimArtist\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   },   {     \"schema\" : :\"dbo\",     \"table\" : \"FactStream\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   } ]"
 			}
 		},
 		"variables": {
