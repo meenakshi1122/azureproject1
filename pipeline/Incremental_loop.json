@@ -329,7 +329,7 @@
 		"parameters": {
 			"loop_Incremental": {
 				"type": "array",
-				"defaultValue": "[   {     \"schema\" : :dbp\",     \"table\" : \"DimUser\",     \"cdc_col\" : \"updated_at\"     \"from_date\" : \"\"   },   {     \"schema\" : :dbp\",     \"table\" : \"DimTrack\",     \"cdc_col\" : \"updated_at\"     \"from_date\" : \"\"   },   {     \"schema\" : :dbp\",     \"table\" : \"DimDate\",     \"cdc_col\" : \"updated_at\"     \"from_date\" : \"\"   },   {     \"schema\" : :dbp\",     \"table\" : \"DimArtist\",     \"cdc_col\" : \"updated_at\"     \"from_date\" : \"\"   },   {     \"schema\" : :dbp\",     \"table\" : \"FactStream\",     \"cdc_col\" : \"updated_at\"     \"from_date\" : \"\"   } ]"
+				"defaultValue": "[   {     \"schema\" : :dbp\",     \"table\" : \"DimUser\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   },   {     \"schema\" : :dbp\",     \"table\" : \"DimTrack\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   },   {     \"schema\" : :dbp\",     \"table\" : \"DimDate\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   },   {     \"schema\" : :dbp\",     \"table\" : \"DimArtist\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   },   {     \"schema\" : :dbp\",     \"table\" : \"FactStream\",     \"cdc_col\" : \"updated_at\",     \"from_date\" : \"\"   } ]"
 			}
 		},
 		"variables": {
